@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "mimi-messaging" # , "~> 1.0"
+  spec.add_dependency "ruby-kafka"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "pry", "~> 0.12"

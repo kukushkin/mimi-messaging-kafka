@@ -2,6 +2,8 @@
 
 require "mimi/messaging"
 require_relative "kafka/adapter"
+require_relative "kafka/consumer"
+require_relative "kafka/reply_listener"
 require_relative "kafka/version"
 
 module Mimi
